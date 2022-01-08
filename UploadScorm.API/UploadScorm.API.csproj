@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UploadScorm.Core\UploadScorm.Core.csproj" />
+    <ProjectReference Include="..\UploadScorm.infra\UploadScorm.infra.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Extracted Scorm FIles\" />
+    <Folder Include="ScormFiles\" />
+  </ItemGroup>
+
+
+</Project>
